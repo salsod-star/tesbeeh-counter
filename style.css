@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: gray;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.tesbh {
+    color: white;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+button {
+    margin-right: 1.5rem;
+    padding: .5rem 1.2rem;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+.decrease, .increase {
+    background-color: orangered;
+    color: white;
+}
+
+.counter {
+    font-size: 40px;
+    font-weight: 400;
+}
